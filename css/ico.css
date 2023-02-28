@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'icons';
+  src:
+    url('../fonts/icons.ttf?ng83kd') format('truetype'),
+    url('../fonts/icons.woff?ng83kd') format('woff'),
+    url('../fonts/icons.svg?ng83kd#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"]::before,
+ [class*=" icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cart:before {
+  content: "\e93a";
+  color:#22262A;
+}
+.icon-search:before {
+  content: "\e986";
+  color:#22262A;
+
+}
+.icon-heart:before {
+  content: "\e9da";
+  color:#22262A;
+
+}
+.icon-cross:before {
+  content: "\ea0f";
+  color:#22262A;
+
+}
+.icon-radio-checked:before {
+  content: "\ea54";
+  color:#22262A;
+  padding-right: 20px;
+
+}
+.icon-facebook2:before {
+  content: "\ea91";
+  color:#22262A;
+
+}
+.icon-instagram:before {
+  content: "\ea92";
+  color:#22262A;
+
+}
+.icon-telegram:before {
+  content: "\ea95";
+    color:#22262A;
+
+}
+.icon-twitter:before {
+  content: "\ea96";
+  color:#22262A;
+
+}
+.icon-facebook2:hover:before,
+.icon-instagram:hover:before,
+.icon-telegram:hover:before ,
+.icon-twitter:hover:before,
+.icon-search:hover:before,
+.icon-heart:hover:before,
+.icon-cart:hover:before{
+  color:#22262a6b;
+}
